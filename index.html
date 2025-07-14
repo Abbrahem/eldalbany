@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موسسة وشركات الدلباني للمحركات</title>
+    <meta name="keywords" content="مازوت, توزيع مازوت, مازوت لبنان, مازوت صناعي, مازوت منزلي, مازوت تجاري, ديزل, توصيل مازوت, شركات مازوت, بيروت, لبنان, Dalbani, Diesel, Fuel Delivery Lebanon, Mazot, Mazot Lebanon, Dalbani Motors">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="petrol.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-gas-pump"></i>
+                موسسة وشركات الدلباني للمحركات
+            </div>
+            <div class="mobile-dropdown-overlay"></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#order">طلب التوصيل</a></li>
+                    <li><a href="#pricing">الأسعار</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li class="lang-dropdown">
+                        <div class="language-toggle">
+                            <button class="lang-btn active" onclick="changeLanguage('ar')">عربي</button>
+                            <button class="lang-btn" onclick="changeLanguage('en')">English</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Language Toggle for desktop -->
+    <div class="language-toggle">
+        <button class="lang-btn active" onclick="changeLanguage('ar')">عربي</button>
+        <button class="lang-btn" onclick="changeLanguage('en')">English</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 style="color: #FFD700 !important;">توزيع المازوت في لبنان</h1>
+            <p>نقدم خدمات توزيع المازوت عالية الجودة بأسعار منافسة في جميع أنحاء لبنان</p>
+            <a href="#order" class="cta-button">اطلب التوصيل الآن</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section-title">من نحن</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>موسستنا</h3>
+                <p>موسسة وشركات الدلباني للمحركات هي موسسة رائدة في مجال توزيع المازوت في لبنان، نعمل منذ أكثر من 50 عاماً لتقديم أفضل الخدمات لعملائنا الكرام.</p>
+                <p>نتميز بفريق عمل محترف ومعدات حديثة تضمن التوصيل الآمن والسريع في جميع المناطق اللبنانية.</p>
+                <p>نلتزم بأعلى معايير الجودة والسلامة في جميع عملياتنا، ونحرص على رضا عملائنا من خلال خدمة متميزة وأسعار منافسة.</p>
+            </div>
+            <div class="about-image"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <h2 class="section-title">خدماتنا</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-home"></i>
+                <h3>مازوت منزلي</h3>
+                <p>توصيل المازوت للمنازل والفلل بكميات مختلفة حسب احتياجات العائلة</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-industry"></i>
+                <h3>مازوت صناعي</h3>
+                <p>خدمات توزيع المازوت للمصانع والمنشآت الصناعية بكميات كبيرة</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-store"></i>
+                <h3>مازوت تجاري</h3>
+                <p>توصيل المازوت للمحلات التجارية والمطاعم والفنادق</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>توصيل سريع</h3>
+                <p>خدمة التوصيل السريع خلال 24 ساعة في جميع المناطق</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>تغطية شاملة</h3>
+                <p>نغطي جميع المناطق اللبنانية من الشمال إلى الجنوب</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>ضمان الجودة</h3>
+                <p>نضمن جودة المازوت الموزع مع شهادات الجودة والسلامة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="section order-section">
+        <h2 class="section-title">طلب التوصيل</h2>
+        <form class="order-form">
+            <div class="form-group">
+                <label for="name">الاسم الكامل</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">رقم الهاتف</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">العنوان</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="fuel-type">نوع المازوت</label>
+                <select id="fuel-type" name="fuel-type" required>
+                    <option value="">اختر نوع المازوت</option>
+                    <option value="domestic">مازوت منزلي</option>
+                    <option value="industrial">مازوت صناعي</option>
+                    <option value="commercial">مازوت تجاري</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantity">الكمية المطلوبة (لتر)</label>
+                <input type="number" id="quantity" name="quantity" min="100" required>
+            </div>
+            <button type="submit" class="submit-btn">إرسال الطلب</button>
+        </form>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+        <h2 class="section-title">الأسعار</h2>
+        <div class="pricing-content">
+            <p>أسعارنا مرنة وتتغير حسب السوق العالمي للبترول. نضمن لكم أفضل الأسعار مع جودة عالية.</p>
+            <div class="price-card">
+                <h3>الأسعار الحالية</h3>
+                <p>للاستفسار عن الأسعار الحالية والطلب، يرجى التواصل معنا عبر الهاتف أو واتساب</p>
+                <p><strong>نقدم عروض خاصة للكميات الكبيرة والاشتراكات الشهرية</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2 class="section-title">آراء العملاء</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <i class="fas fa-star"></i>
+                <p>"خدمة ممتازة وتوصيل سريع. أنصح بالتعامل معهم"</p>
+                <h4>أحمد محمد</h4>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-star"></i>
+                <p>"أسعار منافسة وجودة عالية. شكراً لكم"</p>
+                <h4>فاطمة علي</h4>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-star"></i>
+                <p>"فريق عمل محترف وخدمة 24/7"</p>
+                <h4>ناصر الغزالي </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="safety">
+        <div class="safety-content">
+            <h2 class="section-title">السلامة والجودة</h2>
+            <p>نلتزم بأعلى معايير السلامة والجودة في جميع عملياتنا</p>
+            <div class="safety-grid">
+                <div class="safety-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>معايير السلامة</h3>
+                    <p>نتبع أحدث معايير السلامة في النقل والتخزين</p>
+                </div>
+                <div class="safety-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>شهادات الجودة</h3>
+                    <p>نحمل جميع الشهادات المطلوبة للعمل في هذا المجال</p>
+                </div>
+                <div class="safety-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>نقل آمن</h3>
+                    <p>شاحنات مجهزة بأحدث أنظمة السلامة</p>
+                </div>
+                <div class="safety-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>حماية البيئة</h3>
+                    <p>نلتزم بحماية البيئة في جميع عملياتنا</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>معلومات التواصل</h3>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+961 3 557 235</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>delbani.diesel@yahoo.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span> بيروت، لبنان طريق المطار القديم</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7 خدمة متاحة</span>
+                </div>
+                <a href="https://wa.me/9613557235" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    تواصل عبر واتساب
+                </a>
+            </div>
+            <div class="contact-map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d52988.017843504276!2d35.54789396554604!3d33.8960631715506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d33.89607!2d35.50678!5e0!3m2!1sar!2seg!4v1752504544869!5m2!1sar!2seg"
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius: 10px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 موسسة وشركات الدلباني للمحركات. جميع الحقوق محفوظة.</p>
+            <p>المدير : ميمون الدلباني</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
